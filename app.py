@@ -102,7 +102,7 @@ def detectar_sobreposicoes(df):
     return df
 
 def carregar_apontamentos(excel_path):
-    df_raw = pd.read_excel(excel_path, sheet_name="log", header=None)
+    df_raw = pd.read_excel(excel_path, sheet_name="log", header=None, engine="openpyxl")
     registros = []
     current_description = None
     processing_block = False

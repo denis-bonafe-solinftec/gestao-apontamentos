@@ -47,4 +47,25 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Execução no macOS
+É necessário instalar o podman para rodar via container.
+```Shell
+https://podman.io/docs/installation
+```
+
+É possível instalar via homebrew rodando:
+```Shell
+brew install podman
+```
+Para executar a aplicação, acessar a pasta da mesma, e executar:
+```Shell
+podman machine start
+```
+E após a máquina executar:
+```Shell
+podman compose up -d
+```
+
+Após:
+
 O app será iniciado em `http://localhost:8501`.

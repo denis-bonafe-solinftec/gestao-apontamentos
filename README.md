@@ -57,6 +57,11 @@ https://podman.io/docs/installation
 ```Shell
 brew install podman
 ```
+Após instalar:
+```Shell
+podman machine init
+```
+
 Para executar a aplicação, acessar a pasta da mesma, e executar:
 ```Shell
 podman machine start

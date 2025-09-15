@@ -56,6 +56,7 @@ https://podman.io/docs/installation
 É possível instalar via homebrew rodando:
 ```Shell
 brew install podman
+brew install podman-compose
 ```
 Após instalar:
 ```Shell
